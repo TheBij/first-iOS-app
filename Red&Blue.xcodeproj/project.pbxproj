@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8728C61CA22B0F00544428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8728C51CA22B0F00544428 /* AppDelegate.swift */; };
+		DA8728C81CA22B0F00544428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8728C71CA22B0F00544428 /* ViewController.swift */; };
+		DA8728CB1CA22B0F00544428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8728C91CA22B0F00544428 /* Main.storyboard */; };
+		DA8728CD1CA22B0F00544428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8728CC1CA22B0F00544428 /* Assets.xcassets */; };
+		DA8728D01CA22B0F00544428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8728CE1CA22B0F00544428 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA8728C21CA22B0F00544428 /* Red&Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red&Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8728C51CA22B0F00544428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA8728C71CA22B0F00544428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA8728CA1CA22B0F00544428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA8728CC1CA22B0F00544428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA8728CF1CA22B0F00544428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA8728D11CA22B0F00544428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8728BF1CA22B0F00544428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA8728B91CA22B0F00544428 = {
+			isa = PBXGroup;
+			children = (
+				DA8728C41CA22B0F00544428 /* Red&Blue */,
+				DA8728C31CA22B0F00544428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8728C31CA22B0F00544428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8728C21CA22B0F00544428 /* Red&Blue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA8728C41CA22B0F00544428 /* Red&Blue */ = {
+			isa = PBXGroup;
+			children = (
+				DA8728C51CA22B0F00544428 /* AppDelegate.swift */,
+				DA8728C71CA22B0F00544428 /* ViewController.swift */,
+				DA8728C91CA22B0F00544428 /* Main.storyboard */,
+				DA8728CC1CA22B0F00544428 /* Assets.xcassets */,
+				DA8728CE1CA22B0F00544428 /* LaunchScreen.storyboard */,
+				DA8728D11CA22B0F00544428 /* Info.plist */,
+			);
+			path = "Red&Blue";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8728C11CA22B0F00544428 /* Red&Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8728D41CA22B0F00544428 /* Build configuration list for PBXNativeTarget "Red&Blue" */;
+			buildPhases = (
+				DA8728BE1CA22B0F00544428 /* Sources */,
+				DA8728BF1CA22B0F00544428 /* Frameworks */,
+				DA8728C01CA22B0F00544428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red&Blue";
+			productName = "Red&Blue";
+			productReference = DA8728C21CA22B0F00544428 /* Red&Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8728BA1CA22B0F00544428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bij;
+				TargetAttributes = {
+					DA8728C11CA22B0F00544428 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PJFZ8JKTQC;
+					};
+				};
+			};
+			buildConfigurationList = DA8728BD1CA22B0F00544428 /* Build configuration list for PBXProject "Red&Blue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA8728B91CA22B0F00544428;
+			productRefGroup = DA8728C31CA22B0F00544428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8728C11CA22B0F00544428 /* Red&Blue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA8728C01CA22B0F00544428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8728D01CA22B0F00544428 /* LaunchScreen.storyboard in Resources */,
+				DA8728CD1CA22B0F00544428 /* Assets.xcassets in Resources */,
+				DA8728CB1CA22B0F00544428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8728BE1CA22B0F00544428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8728C81CA22B0F00544428 /* ViewController.swift in Sources */,
+				DA8728C61CA22B0F00544428 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA8728C91CA22B0F00544428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8728CA1CA22B0F00544428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA8728CE1CA22B0F00544428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8728CF1CA22B0F00544428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA8728D21CA22B0F00544428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA8728D31CA22B0F00544428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA8728D51CA22B0F00544428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red&Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bij.Red-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA8728D61CA22B0F00544428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red&Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bij.Red-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8728BD1CA22B0F00544428 /* Build configuration list for PBXProject "Red&Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8728D21CA22B0F00544428 /* Debug */,
+				DA8728D31CA22B0F00544428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8728D41CA22B0F00544428 /* Build configuration list for PBXNativeTarget "Red&Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8728D51CA22B0F00544428 /* Debug */,
+				DA8728D61CA22B0F00544428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA8728BA1CA22B0F00544428 /* Project object */;
+}
